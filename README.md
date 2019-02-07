@@ -1,7 +1,6 @@
 <p align="center">
     <img src=".github/logo.png" alt="logo" width="400">
 </p>
-
 -------
 
 
@@ -15,17 +14,49 @@
     <a href="LICENCE">
         <img src="https://img.shields.io/github/license/CorentinTh/randing.svg?style=flat" alt="licence-badge">
     </a>
+    <a href="https://github.com/facebook/jest">
+        <img src="https://img.shields.io/badge/tested_with-jest-99424f.svg" alt="jest-badge">
+    </a>
 </p>
 
 
+Random + String = RandingEasily generate configurable random string and token 
+
+## Installation 
+
+Easy installation using `yarn` or `npm`:
+
+```bash
+yarn add randing
+  # or
+npm install randing --save
+```
 
 
+## Usage
+
+```javascript
+const randing = require('randing');
+
+console.log(randing()); 	// UIVfjWVjN1UjyhMepVXPtcnVO9yi7uENJULhhbQMxpot2o2rP6
+console.log(randing(10));	// ejcWWx3coe
+console.log(randing(60, {
+    special:true,
+    uppercase:false,		// n-*sh[]b@q?le<p>||p<kh}ua}:d+r|eq?t}!.}.gl@hkgfad|t{.@:z=ujq
+    figures:false,
+}));
+console.log(randing(60, {
+    alphabet:'azerty',		// teeerrrtezezytyytarz
+}))
+```
+
+## API
 
 <!-- doc begin -->
 
 <a name="randing"></a>
 
-## randing(length, [config]) ⇒ <code>string</code>
+### randing(length, [config]) ⇒ <code>string</code>
 Generate a random string (token)
 
 **Kind**: global function  
@@ -44,3 +75,7 @@ Generate a random string (token)
 
 
 <!-- doc end -->
+
+## Credit
+
+Created by [Corentin Thomasset](corentin-thomasset.fr). 
