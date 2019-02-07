@@ -21,7 +21,7 @@ const doc = async () => {
         close: '<!-- doc end -->'
     };
 
-    const md = await jsdoc.render({files: sourceFile});
+    const md = (await jsdoc.render({files: sourceFile})).replace('## ', '### ');
 
     return src('README.md')
         .pipe(replace(
