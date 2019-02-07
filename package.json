@@ -1,0 +1,20 @@
+{
+  "name": "randing",
+  "version": "1.0.0",
+  "description": "Random string generator.",
+  "main": "dist/index.js",
+  "repository": "https://github.com/CorentinTh/randing.git",
+  "author": "Corentin Thomasset",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-terser": "^1.1.7",
+    "jest": "^24.1.0"
+  },
+  "scripts": {
+    "build": "gulp",
+    "test": "jest"
+  }
+}
