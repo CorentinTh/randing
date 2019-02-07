@@ -1,4 +1,11 @@
 language: node_js
 node_js:
-  - 'node'
-
+- node
+deploy:
+  provider: npm
+  email: corentin.thomasset74+npm@gmail.com
+  api_key:
+    secure: W/ujqED8u2+QX3M8duqcOxhJnW4Zggb4nvxWglfvstLhZzDuZ/J5YzG7XskXtzyZeuvDDFZVgxHzhh69g6IhQtBJSCLtfM0FQ66aci/riP0N1HBRrseBLI+TgNIzREzuz3vxwC/l6dYjvG5eOqg9+7JafeG6NaC4NX/VK7F7vYR+Ei9PKfWH7YkapwL4zbrz0HRnBQzbnYexIvP+fyOS6ywIDQ86jRujKW9Gbg462g1rl5JaPZxnybF2qF4e+TylZ+pkVp+qa3cea1y+pgCOYAWxPegiXkjHXjBhikqc9IvPK7b3PSnk8A8jkSZaesbq3UTMJ6OAoztTJ4kUkDGStmt6F0B7IW6pRRHb8+jXccXmFVAkAH7QqEflCwHoJjsfaHbGekgXvq4RHrRSTUrFPAcl3idGjGUaZlXj4WPCMWgCdy9Hpajj7oKx9h/wKSULE9xkS4ZZ9VhPySAh28iSE+JVcln2tyy0Z70pdrxYxq/UWy/OH2/SJuix6GFN9c6ERqxcPE2SVZXL72zYJU7HIl7MNaBqcJ9tPR1X/UNjOzYp4I3ixA9R571HGKF0nmo9poPlNQzTP3rh/faLkaODXOh31yfpQGz7+A03OWTOdY6uD8m7FEiTTm53PQHyHKIJ/A/WmwVWF9J54Y6eIlg8CBQz/0AiJEHDciN4kNDdb9E=
+  on:
+    tags: true
+    repo: CorentinTh/randing
