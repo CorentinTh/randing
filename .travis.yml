@@ -1,7 +1,5 @@
 language: node_js
 node_js:
   - 'node'
-jobs:
-  include:
-    - stage: build
-    - stage: test
+before_script:
+  - 'yarn build'
