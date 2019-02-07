@@ -21,7 +21,8 @@
 </p>
 
 
-Random + String = RandingEasily generate configurable random string and token 
+Random + String = Randing. 
+Easily generate configurable random string and token 
 
 ## Installation 
 
