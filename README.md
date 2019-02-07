@@ -1,13 +1,19 @@
-
-<h1 align="center">RANDING</h1>
 <p align="center">
-    random + string => randing
+    <img src=".github/logo.png" alt="logo" width="400">
 </p>
+
+-------
 
 
 <p align="center">
     <a href="https://travis-ci.com/CorentinTh/randing">
         <img src="https://travis-ci.com/CorentinTh/randing.svg?token=9AFtbFzoBgurrPixVEqi&branch=master" alt="travis-badge">
+    </a>
+    <a href="https://travis-ci.com/CorentinTh/randing">
+        <img src="https://img.shields.io/github/languages/top/CorentinTh/randing.svg?style=flat" alt="language-badge">
+    </a>
+    <a href="LICENCE">
+        <img src="https://img.shields.io/github/license/CorentinTh/randing.svg?style=flat" alt="licence-badge">
     </a>
 </p>
 
