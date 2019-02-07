@@ -1,10 +1,5 @@
 'use strict';
 
-/**
- * Generate a random integer in the interval [0, max[
- * @param {number} max - Upper bound of the random number
- * @return {number} - Random integer in the interval [0, max[
- */
 const random = (max) => Math.floor(Math.random() * max);
 
 /**
@@ -16,8 +11,12 @@ const random = (max) => Math.floor(Math.random() * max);
  * @param {boolean} [config.figures=true] - Allow figures in the token
  * @param {boolean} [config.special=false] - Allow special characters in the token
  * @param {string} [config.alphabet=undefined] - A string of characters to generate the random token from
+ * @return {string} - A random string of size length
  */
 const randing = (length = 50, config = {}) => {
+
+    if(typeof length !== 'number') throw new TypeError('randing: length should be a number.');
+    if(typeof config !== 'object') throw new TypeError('randing: config should be an object.');
 
     // Default config
     config = Object.assign({}, {

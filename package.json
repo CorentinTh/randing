@@ -10,11 +10,15 @@
   "devDependencies": {
     "gulp": "^4.0.0",
     "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
     "gulp-terser": "^1.1.7",
-    "jest": "^24.1.0"
+    "jest": "^24.1.0",
+    "jsdoc-to-markdown": "^4.0.1",
+    "through2": "^3.0.0"
   },
   "scripts": {
     "build": "gulp",
-    "test": "jest"
+    "doc": "gulp doc",
+    "test": "jest test"
   }
 }
