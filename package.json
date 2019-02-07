@@ -6,7 +6,6 @@
   "repository": "https://github.com/CorentinTh/randing.git",
   "author": "Corentin Thomasset",
   "license": "MIT",
-  "private": true,
   "devDependencies": {
     "gulp": "^4.0.0",
     "gulp-rename": "^1.4.0",
