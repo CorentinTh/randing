@@ -2,7 +2,7 @@
   "name": "randing",
   "version": "1.0.0",
   "description": "Random string generator.",
-  "main": "dist/index.js",
+  "main": "src/randing.js",
   "repository": "https://github.com/CorentinTh/randing.git",
   "author": "Corentin Thomasset",
   "license": "MIT",
@@ -16,7 +16,6 @@
     "through2": "^3.0.0"
   },
   "scripts": {
-    "postinstall": "yarn build",
     "build": "gulp",
     "doc": "gulp doc",
     "test": "jest test"
