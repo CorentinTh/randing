@@ -1,6 +1,6 @@
 {
   "name": "randing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Random string generator.",
   "main": "src/randing.js",
   "repository": "https://github.com/CorentinTh/randing.git",
